@@ -38,4 +38,5 @@ python script_name.py
 </code>
 
 ## Future Plans
-Python NEF-Converter for automated convertion.
+* Python NEF-Converter for automated convertion.
+* Delete Raw-Files older than X-days (cleanup)
