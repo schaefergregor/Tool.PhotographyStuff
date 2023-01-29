@@ -4,8 +4,7 @@ I'm using this tools for different stuff. Mostly I create different folders for 
 
 ## My Folder-Structure
 
-<code>
-    <pre>
+```code
 |- Main_Travel_Folder
     |- Travel_Day_1
         |- camera
@@ -27,16 +26,17 @@ I'm using this tools for different stuff. Mostly I create different folders for 
                 |- DSC_0005.JPG
                 |- DSC_0006.JPG
         |-- mobile
-    </pre>
-</code>
+```
 
 ### How to use
+
 Copy the Python-Script into **Main_Travel_Folder**. The tools are just working with the specific folder structure.
 
-<code>
+```code
 python script_name.py
-</code>
+```
 
 ## Future Plans
-* Python NEF-Converter for automated convertion.
+
+* Python NEF-Converter for automated conversion.
 * Delete Raw-Files older than X-days (cleanup)
