@@ -6,14 +6,14 @@ import shutil
 
 # get current path
 dir_path = cwd = os.getcwd()
-# get all subfolders
+# get all sub folders
 directories = os.listdir(dir_path)
 
 # iterate folders
 for directory in directories:
     if directory.startswith('.'):
         continue
-    
+
     # create dir path
     current_dir = os.path.join(dir_path, directory)
     # append camera-subdir
@@ -27,7 +27,7 @@ for directory in directories:
     # check dir exists
     if not os.path.exists(folder_to_delete):
         continue
-    
+
     # remove folder
     print(folder_to_delete)
     shutil.rmtree(folder_to_delete)
